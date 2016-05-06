@@ -1,0 +1,103 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+/*Header*/
+.header {
+	background: black;
+	height: 100px;
+	padding: 10px 0;
+}
+
+.logo {
+	margin: 0 30px 0;
+}
+
+ul.nav li {
+	display: inline-block;
+	margin: 0;
+	padding: 8px 0;
+	line-height: 100px;
+	vertical-align: middle;
+	font-family: "philosopher";
+}
+
+ul.nav li a {
+	color: #fff;
+	display: inline;
+	font-size: 18px;
+	margin-right: 30px;
+	padding:0 0 5px;
+}
+
+ul.nav li a:hover {
+	border-bottom: 1px solid #9fa583;
+	color: #9fa583;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+/*Main*/
+.main {
+	padding: 20px;
+	height: 800px;
+}
+
+.main h1 {
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.main .col-md-7 {
+	padding-left: 50px;
+}
+
+.main .form-group {
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+	margin-top: 15px;
+
+}
+
+.main .btn {
+	background: #9fa583;
+	color: #fff;
+	font-family: 'Merriweather', serif;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-top: 20px;
+}
+
+.main .btn:hover {
+	background: transparent;
+	color: #9fa583;
+}
+
+
+/*Footer*/
+.footer {
+	background-color: black;
+	min-height: 100px;
+}
+
+.footer p {
+	color: #9fa583;
+	font-family: "philosopher";
+	font-size: 16px;
+	line-height: 100px;
+	vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+	
+
+}
